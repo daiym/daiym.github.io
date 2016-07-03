@@ -1,0 +1,521 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.clear:after{
+	content: " ";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.world{
+	min-width: 1280px;
+}
+.logo{
+	float: left;
+}
+.mei{
+	height: 52px;
+	line-height: 50px;
+	padding: 0 60px;
+}
+.mei img{
+	vertical-align: middle;
+}
+.mei p{
+	display: inline-block;
+	font-family: "黑体";
+}
+.mei .one{
+	float: right;
+	padding-right: 40px;
+}
+.mei li{
+	float: left;
+	list-style: none;
+}
+.one li:hover{
+	border-bottom: 2px solid #f00;
+}
+.mei a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+.mei .a a{
+	color: #f00;
+}
+.mei .a a img{
+	padding-right: 5px;
+}
+
+.a .one{
+	width: 100%;
+	height: 690px;
+	background: url(images/dai73.png) no-repeat;
+	background-size: cover;
+	font-family: "微软雅黑";
+}
+.a .one .aa{
+	position: absolute;
+	font-size: 75px;
+	color: #fff;
+	top:220px;
+	left: 90px;
+}
+.a .one .bb{
+	margin-top: 30px;
+	position: absolute;
+	font-size: 20px;
+	color: #fff;
+	top:300px;
+	left: 110px;
+}
+.a .one .cc{
+	position: absolute;
+	font-size: 20px;
+	color: #fff;
+	top:360px;
+	left: 110px;
+}
+.a .one .dd{
+	position: absolute;
+	font-size: 28px;
+	color: #fff;
+	padding: 10px 80px;
+	background-color:#e74f4d;
+	top:430px;
+	left: 110px;
+}
+.a .two{
+	margin-top: 80px;
+	text-align: center;
+}
+.a .two .aaa{
+	display: inline-block;
+	width: 270px;
+}
+.a .two .aaa img{
+	padding-bottom: 50px;
+}
+.a .two .aaa p{
+	padding: 0 40px;
+	border-right: 1px solid #333;
+}
+.a .two .aaa .poo{
+	border: none;
+}
+.bn{
+	margin-top: 80px;
+}
+.bn .oneyi{
+	text-align: center;
+	padding: 60px 0 90px 0; 
+	background: #ededed;
+}
+.bn .oneyi p{
+	margin-top: 40px;
+	font-size: 45px;
+	color: #a1a1a1;
+	font-family: "黑体";
+}
+.bn .twoyi{
+	background: url(images/dai79.png) no-repeat;
+	background-size:cover;
+	height: 341px;
+	text-align: center;
+}
+.bn .twoyi .lo{
+	padding-top: 50px;
+	padding-bottom: 7px;
+	font-size: 25px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.bn .twoyi .loo{
+	width: 37px;
+	border: 1px solid #fff;
+	margin:0 auto;
+	margin-bottom: 15px;
+}
+.bn .twoyi .ol{
+	margin-bottom: 30px;
+	font-size: 10px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.bn .twoyi .quan{
+	width: 100%;
+}
+.bn .twoyi .quan .span{
+	display: inline-block;
+	position: relative;
+}
+.bn .twoyi .quan .span img{
+	position: absolute;
+	right: 25px;
+	top: 7px;
+}
+.bn .twoyi .quan .span input{
+	padding: 7px;
+	margin-right: 20px;
+	width: 210px;
+}
+.bn .twoyi .quan .jin{
+	display: inline-block;
+	border: 1px solid #e74f4d;
+	color: #fff;
+	background-color: #e74f4d;
+	width: 210px;
+	padding: 7px;
+}
+.bn .twoyi .quan .sol{
+	position: relative;
+}
+.bn .twoyi .quan .sol ul{
+	position: absolute;
+	list-style-type: none;
+	border: 1px solid #e74f4d;
+	background-color: #fff;
+	color:#89898a;
+	width: 225px;
+	text-align: left;
+}
+.quan .sol ul li{
+	padding: 7px 7px 7px 15px;
+}
+.quan .sol .eo{
+	background-color: #e74f4d;
+	color: #fff;
+	padding-left: 2px;
+}
+.quan .sol li:hover{
+	background-color: #e74f4d;
+	color: #fff;
+}
+
+.bn .threeyi{
+	padding: 150px 0;
+	background-color: #ededed;
+	text-align: center;
+}
+.bn .threeyi .inline{
+	display: inline-block;
+	width: 20%;
+}
+.bn .threeyi .inline .yi{
+	font-size: 17px;
+	font-family: "微软雅黑";
+	padding:10px 0;
+}
+.bn .threeyi .inline .yang{
+	font-size: 12px;
+	color: #a1a1a1;
+	font-family: "微软雅黑";
+	padding-bottom: 10px;
+}
+.bn .threeyi .inline .buyi{
+	font-size: 25px;
+	font-family: "微软雅黑";
+	letter-spacing: 30px;
+}
+.cn .oneer{
+	text-align: center;
+	width: 66.6%;
+	height: 566px;
+	background: url(images/dai715.png) no-repeat;
+	float: left;
+	background-size: cover;
+}
+.cn .oneer .xin{
+	font-size: 50px;
+	color: #fff;
+	padding-top: 100px;
+	font-family: "微软雅黑";
+}
+.cn .oneer .ti{
+	font-family: "微软雅黑";
+	font-size: 157px;
+	color: #fff;
+	margin-top: -30px;
+}
+.cn .oneer .shi{
+	font-family: "微软雅黑";
+	font-size: 21px;
+	color: #fff;
+}
+.cn .oneer .rq{
+	font-family: "黑体";
+	font-size: 21px;
+	color: #fff;
+	padding-top: 10px;
+}
+.cn .twoer{
+	width: 33.3%;
+	float: right;
+	text-align: center;
+	margin-top: 141px;
+}
+.cn .twoer .aax{
+	font-size: 21px;
+	font-family: "微软雅黑";
+}
+.cn .twoer .bbx{
+	color: #e25c60;
+}
+.cn .twoer .ccx{
+	width: 300px;
+	font-size: 12px;
+	color: #aaa;
+	font-family: "宋体";
+	text-align: left;
+	line-height: 2em;
+	margin-left: 70px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.cn .twoer .ddx{
+	border: 1px solid #e25c60;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	padding:10px 0;
+	margin:0 130px;
+	color:#e25c60;
+}
+.cn .twoer .eex{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border:1px solid black;
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.cn .twoer .ter{
+	background-color: black;
+}
+.dn{
+	width: 100%;
+}
+.dn .onesan{
+	float: left;
+	width: 33.3%;
+	background-color:#e74f4d;
+	color: #fff;
+	font-family: "黑体";
+	height: 521px;
+	text-align: center;
+}
+.dn .twosan{
+	float: left;
+	width:  33.3%;
+	background-color:#fff;
+	font-family: "黑体"; 
+	height: 521px;
+	text-align: center;
+}
+.dn .threesan{
+	float: left;
+	width:  33.3%;
+	height: 521px;
+	background: url(images/dai716.png);
+	background-size: cover;
+}
+.dn .onesan .aac{
+	font-size: 21px;
+	font-family: "黑体";
+	margin-bottom: 10px; 
+	margin-top: 188px;
+}
+.dn .onesan .bbc{
+	font-size: 21px;
+	font-family: "黑体";
+	margin-bottom: 15px;
+}
+.dn .onesan .ccc{
+	width: 35px;
+	height: 2px;
+	background-color: #fff;
+	margin:0 auto;
+	margin-bottom: 15px;
+}
+.dn .onesan .ddc{
+	font-size: 21px;
+	font-family: "黑体";
+	border: 1px solid #fff;
+	padding: 10px;
+	margin: 0 120px;
+}
+.dn .twosan .aam{
+	font-size: 21px;
+	font-family: "黑体";
+	margin-bottom: 10px; 
+	margin-top: 188px;
+}
+.dn .twosan .bbm{
+	font-size: 21px;
+	font-family: "黑体";
+	margin-bottom: 15px;
+}
+.dn .twosan .ccm{
+	width: 35px;
+	height: 2px;
+	background-color: #ababab;
+	margin:0 auto;
+	margin-bottom: 15px;
+}
+.dn .twosan .ddm{
+	font-size: 21px;
+	font-family: "黑体";
+	border: 1px solid #e74f4d;
+	padding: 10px;
+	margin: 0 120px;
+	color: #e74f4d;
+}
+.en .onesi{
+	margin-top: 80px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.en{
+	margin:0 auto;
+}
+.en .onesi .aq{
+	font-size: 21px;
+	font-family: "黑体";
+	margin-bottom: 5px;
+}
+.en .onesi .bq{
+	width: 30px;
+	height: 2px;
+	background-color: #e74f4d;
+	margin:0 auto;
+	margin-bottom: 15px;
+}
+.en .onesi .cq{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #aaa;
+}
+.en .twosi{
+	margin-left: 150px;
+	width:275px; 
+	float: left;
+	margin-right: 40px;
+}
+.en .twosi .aag{
+	font-size: 14px;
+	font-family: "黑体";
+	text-align: left;
+	margin-bottom: 25px;
+}
+.en .twosi .bbg{
+	font-size: 12px;
+	color: #d2d1d1;
+	font-family: "宋体";
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+.en .twosi .ccg{
+	font-size: 12px;
+	color: #d2d1d1;
+	text-align: right;
+	margin-bottom: 15px;
+}
+.en .threesi{
+	width: 700px;
+	height: 312px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 130px;
+}
+.en .threesi input{
+	width: 300px;
+	background-color: #ededef;
+	padding: 10px;
+	margin-right:20px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-family: "宋体";
+	border: none;
+}
+.en .threesi textarea{
+	width: 670px;
+	height: 130px;
+	margin-bottom: 20px;
+	background-color: #ededef;
+	font-size: 12px;
+	font-family: "宋体";
+	border: none;
+	resize:none;
+}
+.en .threesi .oo input{
+	width: 670px;
+	background-color: #ededef;
+}
+.fn {
+	width: 100%;
+	background-color:#32353e;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center; 
+}
+.fn .az{
+	font-size: 21px;
+	font-family: "黑体";
+	margin-bottom: 15px;
+	color: #fff;
+}
+.fn .bz{
+	font-size: 12px;
+	font-family: "宋体";
+	margin-bottom: 5px;
+	color: #fff;
+}
+.fn .cz .jj input{
+	width: 500px;
+	margin-top: 30px;
+	padding: 10px;
+	color: #b0b0b0;
+	border: none;
+}
+.fn .cz .dada input{
+	width: 80px;
+	padding: 9px;
+	background-color: #6f7278;
+	color: #fff;
+	font-size: 15px;
+	border: none;
+	letter-spacing: 7px;
+	margin-left: -8px;
+	margin-top: 3px;
+	margin-bottom: 40px;
+}
+.fn .v{
+	margin-right: 50px;
+}
+.jiao{
+	width: 100%;
+	background-color: #2f2f38;
+	display: inline-block;
+	height: 50px;
+}
+.jiao .av{
+	font-size: 12px;
+	font-family: "宋体";
+	display: inline-block;
+	padding-top:25px;
+	float: left;
+	color: #fff;
+	padding-left: 70px;
+}
+.jiao .bv{
+	font-size: 12px;
+	font-family: "宋体";
+	display: inline-block;
+	float: right;
+	color: #fff;
+	padding-top:25px;
+	padding-right: 70px;
+}
