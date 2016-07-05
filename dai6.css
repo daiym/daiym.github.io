@@ -3,11 +3,12 @@
 	padding: 0;
 }
 body{
-	width: 892px;
+	
+}
+.main{
+	max-width: 892px;
 	height: 1286px;
-	border: 1px solid #999;
-	padding:43px;
-	padding-top: 0;
+	margin: 0 auto;
 }
 .clear:after{
 	content:" ";

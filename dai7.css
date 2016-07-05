@@ -398,11 +398,13 @@
 	font-family: "微软雅黑";
 	color: #aaa;
 }
+.wrap{
+	width: 995px;
+	margin: 0 auto;
+}
 .en .twosi{
-	margin-left: 150px;
 	width:275px; 
 	float: left;
-	margin-right: 40px;
 }
 .en .twosi .aag{
 	font-size: 14px;
@@ -428,7 +430,6 @@
 	height: 312px;
 	float: left;
 	margin-left: 20px;
-	margin-bottom: 130px;
 }
 .en .threesi input{
 	width: 300px;
