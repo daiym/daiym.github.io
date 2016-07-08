@@ -1,0 +1,241 @@
+*{
+	padding: 0;
+	margin:0;
+	border: 0;
+}
+html{
+	font-size:20px;
+}
+.world{
+	width: 100%;
+}
+.clear{
+	content:" ";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.head{
+	background-color: #91d4da;
+	height: 2.5rem;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 2.5rem;
+	position: relative;
+}
+.head .oo{
+	position: absolute;
+	left: 1rem;
+}
+.head .oo a{
+	text-decoration: none;
+	color: #fff;
+}
+.head .pp{
+	text-align: center;
+}
+.daohang dl{
+	display: flex;
+	text-align: center;
+}
+.daohang dl dd{
+	flex: 1;
+	padding: 0.75rem 0;
+	font-size: 1rem;
+	border-bottom: 0.2rem solid #fff;
+}
+.daohang dd:hover{
+	border-bottom: 0.2rem solid #91d4da;
+}
+.tu{
+	background: url(images/images/dai81.png) no-repeat;
+	background-size: cover;
+	height: 8.8rem;
+	
+}
+.xiao{
+	border-bottom: 0.2rem solid #ccc;
+	margin: 0  0.5rem;
+	display: flex;
+	text-align: center;
+	/*width: 15rem;*/
+}
+.yi{
+	flex:1;
+	text-align: center;
+	padding:2rem 0;
+	width: 6rem;
+	background-size:6.25rem 6.05rem; 
+}
+.yi p{
+	font-size: 1rem;
+	font-family: "黑体";
+	padding-top: 1rem;
+}
+.yi img{
+	width: 2rem;
+}
+.fenlan{
+	padding-top: 1rem;
+	margin:0.5rem;
+	text-align: center;
+	display: flex;
+}
+.fenlanyi,
+.fenlaner,
+.fenlansan{
+	flex: 1;
+	border-right: 0.2rem solid #ccc;
+}
+.fenlanyi img,
+.fenlaner img,
+.fenlansan img{
+	height:5.35rem;
+	width: 4rem;
+}
+p.a{
+	font-size: 1rem;
+	font-family: "黑体";
+	padding-top: 1rem;
+}
+p.b{
+	font-size: 0.7rem;
+	font-family: "黑体";
+	padding-top: 1rem;
+	color: #666;
+	padding-bottom: 1rem;
+}
+.fenlansan{
+	border:none;
+}
+div.yu{
+	height: 1.5rem;
+	background-color:#f5f5f5; 
+}
+.two,
+.three{
+	margin: 0.5rem;
+}
+.kuai{
+	font-size: 1rem;
+	font-family: "黑体";
+	padding:0.75% 0;
+	color: #666;
+	border-bottom: 0.1rem solid #ccc;
+	margin-bottom: 1rem;
+}
+.fuyi{
+	margin:1rem 0;
+	/*width: 15rem;*/
+	justify-content: space-between;
+	display: flex;
+}
+.fuyi img{
+	width: 4rem;
+	height: 3.75rem;
+}
+.fuyi .info{
+	width: 10rem;
+	height: 3.75rem;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+	display: flex; 
+}
+.fuyi p {
+	width: 4rem;
+	text-align: center;
+	font-size: 0.7rem;
+	
+	background-color: #eee;
+	padding:0.4rem;
+}
+.four{
+	margin: 0.5rem 0.5rem 0;
+	width: 15rem;
+	display: flex;
+}
+.four img{
+	width: 5rem;
+	height: 3.55rem;
+}
+.fusi{
+	width: 9rem;
+	height: 3.55rem;
+	align-content:space-between;
+	display: flex;
+	flex-wrap:wrap; 
+}
+.fusan{
+	width: 5.5rem;
+}
+.ben{
+	font-size: 0.7rem;
+	width: 9rem;
+	height: 1.3rem;
+}
+.hui{
+	font-size: 0.5rem;
+	color: #ccc;
+	width: 9rem;
+	height: 1.2rem;
+}
+.hu{
+	font-size: 1rem;
+	color: #ccc;
+	margin-top: 1rem;
+}
+.mo{
+	width: 15rem;
+	margin:1rem 0.5rem 0 0.5rem;
+}
+.ro{
+	display: flex;
+	justify-content: space-between;
+}
+.ro img{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 4.5rem;
+	height: 3.2rem;
+}
+.benn{
+	font-size: 0.8rem;
+}
+.mo .hui{
+	font-size: 0.5rem;
+	color: #ccc;
+	margin: 0;
+	padding-bottom: 0.5rem;
+}
+@media screen and (min-width:401px){
+	html{
+		font-size: 25px;
+	}
+}
+@media screen and (min-width:428px){
+	html{
+		font-size: 26.75px;
+	}
+}
+@media screen and (min-width:481px){
+	html{
+		font-size: 30px;
+	}
+}
+@media screen and (min-width:569px){
+	html{
+		font-size: 35px;
+	}
+}
+@media screen and (min-width:641px){
+	html{
+		font-size: 40px;
+	}
+}
+@media screen and (min-width:768px){
+	html{
+		font-size: 48px;
+	}
+}
