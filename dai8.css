@@ -65,6 +65,7 @@ html{
 	/*width: 15rem;*/
 }
 .yi{
+	-webkit-flex: 1;
 	flex:1;
 	text-align: center;
 	padding:2rem 0;
