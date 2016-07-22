@@ -171,10 +171,12 @@ div.yu{
 .fusi{
 	width: 9rem;
 	height: 3.55rem;
+	-webkit-align-content:space-between;
 	align-content:space-between;
 	display: -webkit-flex;
 	display: flex;
-	flex-wrap:wrap; 
+	-webkit-flex-wrap:wrap; 
+	flex-wrap:wrap;
 }
 .fusan{
 	width: 5.5rem;
@@ -203,6 +205,7 @@ div.yu{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: space-between;
+	-webkit-justify-content: space-between;
 }
 .ro img{
 	margin-top: 1rem;
