@@ -68,7 +68,7 @@ html{
 	flex:1;
 	text-align: center;
 	padding:2rem 0;
-	width: 6rem;
+	width: 6rem;info
 	background-size:6.25rem 6.05rem; 
 }
 .yi p{
@@ -144,8 +144,11 @@ div.yu{
 .fuyi .info{
 	width: 10rem;
 	height: 3.75rem;
+	-webkit-justify-content: space-between;
 	justify-content: space-between;
+	-webkit-align-content: space-between;
 	align-content: space-between;
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	display: -webkit-flex;
 	display: flex; 
