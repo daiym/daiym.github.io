@@ -36,10 +36,12 @@ html{
 	text-align: center;
 }
 .daohang dl{
+	display: -webkit-flex;
 	display: flex;
 	text-align: center;
 }
 .daohang dl dd{
+	-webkit-box-flex: 1;
 	flex: 1;
 	padding: 0.75rem 0;
 	font-size: 1rem;
@@ -49,7 +51,7 @@ html{
 	border-bottom: 0.2rem solid #91d4da;
 }
 .tu{
-	background: url(images/dai81.png) no-repeat;
+	background: url(images/images/dai81.png) no-repeat;
 	background-size: cover;
 	height: 8.8rem;
 	
@@ -57,6 +59,7 @@ html{
 .xiao{
 	border-bottom: 0.2rem solid #ccc;
 	margin: 0  0.5rem;
+	display: -webkit-flex;
 	display: flex;
 	text-align: center;
 	/*width: 15rem;*/
@@ -80,11 +83,13 @@ html{
 	padding-top: 1rem;
 	margin:0.5rem;
 	text-align: center;
+	display: -webkit-flex;
 	display: flex;
 }
 .fenlanyi,
 .fenlaner,
 .fenlansan{
+	-webkit-box-flex: 1;
 	flex: 1;
 	border-right: 0.2rem solid #ccc;
 }
@@ -129,6 +134,7 @@ div.yu{
 	margin:1rem 0;
 	/*width: 15rem;*/
 	justify-content: space-between;
+	display: -webkit-flex;
 	display: flex;
 }
 .fuyi img{
@@ -141,6 +147,7 @@ div.yu{
 	justify-content: space-between;
 	align-content: space-between;
 	flex-wrap: wrap;
+	display: -webkit-flex;
 	display: flex; 
 }
 .fuyi p {
@@ -154,6 +161,7 @@ div.yu{
 .four{
 	margin: 0.5rem 0.5rem 0;
 	width: 15rem;
+	display: -webkit-flex;
 	display: flex;
 }
 .four img{
@@ -164,6 +172,7 @@ div.yu{
 	width: 9rem;
 	height: 3.55rem;
 	align-content:space-between;
+	display: -webkit-flex;
 	display: flex;
 	flex-wrap:wrap; 
 }
@@ -191,6 +200,7 @@ div.yu{
 	margin:1rem 0.5rem 0 0.5rem;
 }
 .ro{
+	display: -webkit-flex;
 	display: flex;
 	justify-content: space-between;
 }
