@@ -1,2 +1,0 @@
-# daiym.github.io
-demodemodemo
