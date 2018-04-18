@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>111</title>
+    <meta name="description" content="我是一个充满活力、对前端由衷热爱、善于发现问题的人。我目前正在寻找前端工程师岗位，希望借此机会为贵公司献上我的一点绵薄之力，快快call我吧！">
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="stylesheet" href="dist/css/fontello.min.css">
+    <style>
+        body,html{
+            height: 100%;
+            width: 100%;
+        }
+        .wrap{
+            height: 100%;
+            width: 100%;
+            /*width: 500px;
+            height: 300px;*/
+            background-color: red;
+            position: relative;
+            /*display:table-cell;
+            text-align:center;
+            vertical-align:middle;*/
+        }
+        .inner{
+            width:100px;
+            height:100px;
+            background-color: #ff0;
+            /*display: inline;*/
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin:-50px 0 0 -50px;
+            /*transform: translate(-50%,-50%)*/
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            不设置宽度也能居中
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    // var data = [0,null,undefined,{},[],"",true && false,true || false];
+    // console.log(data);
+    // for(var i = 0; i < data.length; i++){
+    //     console.log(data[i] ?  `有${data[i]}` : `没有${data[i]}`)
+    // }
+    //222222222222222
+    // function a(fun){
+    //     console.log('a',fun);
+    //     fun(function(){
+    //         console.log('先执行b')
+    //         c();
+    //     })
+    // };
+    // function b(fun){
+    //     console.log('b',fun);
+    //     fun();
+    // };
+    // function c(){
+    //     console.log('c');
+    // };
+    // a(b);
+    //333333333333333333
+    // function a(fun){
+    //     console.log('a',fun);
+    //     fun(function(){
+    //         console.log('111');
+    //         c();
+    //     })
+    // }
+    // function b(fun){
+    //     console.log('b');
+    // }
+    // function c(){
+    //     console.log('c')
+    // }
+    // a(function(){
+    //     b();
+    // })
+    // a(c);
+    //44444444444444444444444
+    // function a(fun){
+    //     console.log('a',fun);
+    //     fun(function(){
+    //         //a执行函数参数
+    //         console.log('111');
+    //         c();
+    //     })
+    // }
+    // function b(fun){
+    //     console.log('b');
+    // }
+    // function c(){
+    //     console.log('c')
+    // }
+    // a(function(fun){
+    //     //a函数参数
+    //     console.log('fun',fun)
+    //     fun();
+    //     b();
+    // })
+    // a(c);
+    //55555555555555555555555
+    // var aa = function(item){
+    //     console.log(item.a);
+    // }
+    // var list = [{a:1},{a:2},{a:3}];
+    // for(var i = 0; i < list.length; i++){
+    //     aa(list[i])
+    // }
+    //6666666666666666666666
+    // var aa = function(item){
+    //     console.log(item.a);
+    // }
+    // var list2 = [{a:1},{a:2},{a:3}];
+    // for(var i = 0; i < list2.length; i++){
+    //     var item = list2[i];
+    //     setTimeout(function(){
+    //         aa(item)
+    //     },10)
+    // }
+    //777777777777777777777
+    // var aa = function(item){
+    //     console.log(item.a);
+    // }
+    // var list2 = [{a:1},{a:2},{a:3}];
+    // for(var i = 0; i < list2.length; i++){
+    //     var item = list2[i];
+    //     setTimeout((function(_item){
+    //         return function(){
+    //             aa(_item)
+    //         }
+    //     })(item),10)
+    // }
+    //8888888888888888888888
+    // function Foo(){
+    //     getName = function(){alert(1)};
+    //     return this;
+    // };
+    // Foo.getName = function(){alert(2)};
+    // Foo.prototype.getName = function(){alert(3)};
+    // var getName = function(){alert(4)};
+    // function getName(){alert(5)};
+
+    // Foo.getName();//2
+    // getName();//4
+    // Foo().getName();//1
+    // getName();//4
+    // new Foo.getName();//2
+    // new Foo().getName();//3
+    // new new Foo().getName();//3
+    //99999999999999999999999999
+    // Array.prototype.duplicator = function(){
+    //     const list = [...this,...this];
+    //     console.log(list);
+    // };
+    // [1,2,3,4,5].duplicator();
+    //10 10 10 10 10 10 10 10 10 10
+    // function max(num){
+    //     var str = ''+num;
+    //     var arr = [];
+    //     if(str.length < 5){
+            
+    //     }else{
+    //         for(var i = 0; i < str.length - 4; i++){
+    //             var a = str.substr(i,5);
+    //             arr.push(a)
+    //         }
+    //     }
+    //     console.log(arr)
+    //     console.log(Math.max(...arr))
+    // }
+    // max(13957198356);//98356
+    // max(3594556695479);//95479
+    // max(123456);//23456
+    // 11 11 11 11 11 11 11 11 11 11 11 11
+    // var a = [1,2,3,4];
+    // Array.prototype.x = function(){
+    //     console.log([...this,...this]);
+    // }
+    // a.x();
+    // 12 12 12 12 12 12 12 12 12 12 12
+    // var o = {
+    //     a : {
+    //         b : {
+    //             c : 11
+    //         }
+    //     },
+    //     b : 2
+    // }
+    // Object.prototype.hash = function(attr){
+    //     var arr = attr.split(',');
+    //     return this[arr[0]][arr[1]][arr[2]]
+    // }
+    // o.hash('a,b,c');//11
+    // 13 13 13 13 13 13 13 13 13 13 13 13
+    // function fun(n,o){
+    //     console.log(o);
+    //     return {
+    //         fun : function(m){
+    //             return fun(m,n)
+    //         }
+    //     }
+    // }
+    // var a = fun(0);
+    // a.fun(1);
+    // a.fun(2);
+    // a.fun(3);
+    // var b = fun(0).fun(1).fun(2).fun(3);
+    // var c = fun(0).fun(1);
+    // c.fun(2);
+    // c.fun(3);
+    // console.log(a,b,c);
+    // 14 14 14 14 14 14 14 14 14 14 14 14 14
+    var fn=function(a,b,c){
+        return a+b+c;
+    } 
+    function curry(fun){
+        console.log(fun)
+        fun(function(a){
+            console.log(a)
+        })
+    }
+    curry(fn)(1)
+</script>
+</html>
